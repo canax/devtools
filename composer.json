@@ -1,4 +1,19 @@
 {
+    "name": "anax/devtools",
+    "type": "library",
+    "description": "Development tools for validation and test.",
+    "keywords": ["linter", "unittest", "mess detectors", "dev tools"],
+    "homepage": "https://github.com/canax/devtools",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mikael Roos",
+            "email": "mikael.t.h.roos@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/canax/devtools/issues"
+    },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
         "phpstan/phpstan": "^0.12.85"
