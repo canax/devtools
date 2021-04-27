@@ -68,6 +68,8 @@ check-version:
 	$(PHPSTAN) --version
 	$(PHPUNIT) --version
 
+check: check-version
+
 prepare:
 	[ -d $(BUILD) ] || install -d $(BUILD)
 	rm -rf $(BUILD)/*

@@ -1,0 +1,16 @@
+language: php
+
+php:
+    - "7.4"
+    - "8.0"
+
+sudo: false
+
+git:
+    submodules: false
+
+before_script:
+    - make install check
+
+script:
+    - make test
