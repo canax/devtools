@@ -1,0 +1,4 @@
+/.dev/bin
+/.dev/build
+vendor/
+composer.lock
